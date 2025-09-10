@@ -1,0 +1,340 @@
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabel'App' object has no attribute 'detect_and_count_coins'
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init run camera process
+ERROR:root:GUI no Createdimage "pyimage30" doesn't exist
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init run camera process
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init run camera process
+INFO:root:Init run camera process
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+ERROR:root:GUI no Createdcannot access local variable 'frame_binarizado' where it is not associated with a value
+INFO:root:Init main
+ERROR:root:GUI no Createdcannot access local variable 'frame_binarizado' where it is not associated with a value
+INFO:root:Init main
+ERROR:root:GUI no Createdcannot access local variable 'frame_binarizado' where it is not associated with a value
+INFO:root:Init main
+ERROR:root:GUI no Createdcannot access local variable 'frame_binarizado' where it is not associated with a value
+INFO:root:Init main
+ERROR:root:GUI no Createdcannot access local variable 'frame_binarizado' where it is not associated with a value
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabelOpenCV(4.9.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\arithm.cpp:1742: error: (-209:Sizes of input arguments do not match) The lower boundary is neither an array of the same size and same type as src, nor a scalar in function 'cv::inRange'
+
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabelOpenCV(4.9.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\arithm.cpp:1742: error: (-209:Sizes of input arguments do not match) The lower boundary is neither an array of the same size and same type as src, nor a scalar in function 'cv::inRange'
+
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+ERROR:root:GUI no Created'App' object has no attribute 'lblCoins'
+INFO:root:Init main
+ERROR:root:GUI no Created'App' object has no attribute 'lblCoins'
+INFO:root:Init main
+ERROR:root:GUI no Created'App' object has no attribute 'lblCoins'
+INFO:root:Init main
+ERROR:root:GUI no Created'App' object has no attribute 'lblCoins'
+INFO:root:Init main
+ERROR:root:GUI no Created'App' object has no attribute 'lblCoins'
+INFO:root:Init main
+ERROR:root:GUI no Created'App' object has no attribute 'lblCoins'
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabelNone
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabelNone
+ERROR:root:Error in getFrameInLabelNone
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabelunsupported operand type(s) for +: 'int' and 'str'
+ERROR:root:Error in getFrameInLabelunsupported operand type(s) for +: 'int' and 'str'
+ERROR:root:Error in getFrameInLabelunsupported operand type(s) for +: 'int' and 'str'
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabel'Monedad de $50'
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabel'Monedad de $50'
+ERROR:root:Error in getFrameInLabel'Monedad de $50'
+ERROR:root:Error in getFrameInLabel'Monedad de $50'
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabel'Monedad de $50'
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabel'Monedad de $50'
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabel'Monedad de $50'
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabel'Monedad de $50'
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabelsum() takes at most 2 arguments (5 given)
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabelNone
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabelNone
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabel0
+INFO:root:Init main
+INFO:root:GUI Created
+ERROR:root:Error in getFrameInLabel0
+INFO:root:Init main
+INFO:root:GUI Created
+INFO:root:Init main
+INFO:root:GUI Created

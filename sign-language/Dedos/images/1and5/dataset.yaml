@@ -1,0 +1,4 @@
+train: C:\Users\enri-\Desktop\Tesis\Dedos\images\1and5\YOLODataset/images/train/
+val: C:\Users\enri-\Desktop\Tesis\Dedos\images\1and5\YOLODataset/images/val/
+nc: 2
+names: ["1", "5"]
