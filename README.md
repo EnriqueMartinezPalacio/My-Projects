@@ -22,7 +22,7 @@ The goal of this portfolio is to showcase my technical skills, problem-solving a
 
 Across these projects, I have worked with:
 
-- **Programming Languages**: Python, JavaScript, C++  
+- **Programming Languages**: Python, C++
 - **Libraries & Frameworks**: OpenCV, TensorFlow, PyTorch, Scikit-learn, NumPy, Pandas  
 - **Tools**: Git, Jupyter Notebooks, Arduino, ESP32, MQTT  
 - **Domains**: Computer Vision, Signal Processing, Real-Time Systems, Machine Learning
