@@ -1,0 +1,21 @@
+# Sign Recognition System
+
+This folder contains projects focused on **sign language recognition** and **real-time automation** using deep learning and computer vision.
+
+## 📑 Projects
+
+- **Project 1: Prueba_OAK & Prueba_PC**  
+  Detects activation, action, place, and time commands from sign language gestures.  
+  🔹 Tech stack: Python, OpenCV, PyTorch, DepthAI  
+  🔹 Key features: Real-time classification, MQTT integration with IoT devices  
+
+- **Project 2: Images, data_Augmentation,Indices, Codigo_Modulos **  
+  Scripts and pipelines for capturing and labeling sign language datasets.  
+  🔹 Tech stack: Python, OpenCV, Labelme  
+  🔹 Key features: Automated data capture, structured dataset organization  
+
+## ⚙️ How to Run
+1. Clone the repository  
+2. Install requirements from `requirements.txt`  
+3. Run the main script following the instructions in each project folder  
+
