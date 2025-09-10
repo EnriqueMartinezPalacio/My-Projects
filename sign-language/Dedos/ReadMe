@@ -1,21 +1,178 @@
-# Sign Recognition System
+Sign Language Recognition System
 
-This folder contains projects focused on **sign language recognition** and **real-time automation** using deep learning and computer vision.
+This project implements a real-time sign language recognition system using YOLOv8, OAK-D camera, Tkinter interfaces, and MQTT communication.
+It combines computer vision, machine learning, and IoT to interpret hand gestures and translate them into structured commands for smart environments (e.g., home automation).
 
-## 📑 Projects
+🚀 Features
 
-- **Project 1: Prueba_OAK & Prueba_PC**  
-  Detects activation, action, place, and time commands from sign language gestures.  
-  🔹 Tech stack: Python, OpenCV, PyTorch, DepthAI  
-  🔹 Key features: Real-time classification, MQTT integration with IoT devices  
+YOLOv8-based gesture recognition (custom-trained models).
 
-- **Project 2: Images, data_Augmentation,Indices, Codigo_Modulos **  
-  Scripts and pipelines for capturing and labeling sign language datasets.  
-  🔹 Tech stack: Python, OpenCV, Labelme  
-  🔹 Key features: Automated data capture, structured dataset organization  
+Graphical interfaces with Tkinter for real-time visualization.
 
-## ⚙️ How to Run
-1. Clone the repository  
-2. Install requirements from `requirements.txt`  
-3. Run the main script following the instructions in each project folder  
+Data collection pipeline with OAK-D camera and threaded saving.
 
+Buffer-based filtering to reduce false positives.
+
+Command parsing pipeline: Activation → Action → Location/Time.
+
+MQTT integration for IoT device communication.
+
+Real-time timer control (minutes/seconds).
+
+📂 Project Structure
+.
+├── yolo_interface.py          # Tkinter GUI with YOLO hand detection
+├── image_capture.py           # Capture images from OAK-D for dataset
+├── phrase_display.py          # Tkinter GUI to display final phrase with timer
+├── full_pipeline.py           # Main project: YOLO + MQTT + Timers
+├── models/                    # Trained YOLOv8 models (Activation, Actions, Place, Time)
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project documentation
+
+🛠️ Requirements
+
+Python 3.9+
+
+OpenCV
+
+Tkinter
+
+Pillow
+
+DepthAI SDK
+
+Ultralytics YOLOv8
+
+Paho MQTT
+
+Install all dependencies:
+
+pip install -r requirements.txt
+
+
+Example requirements.txt:
+
+ultralytics
+opencv-python
+pillow
+depthai
+paho-mqtt
+
+📖 Modules
+1. yolo_interface.py – YOLO Tkinter GUI
+
+Loads a YOLO model (best.pt).
+
+Opens webcam feed.
+
+Displays:
+
+Number of detected fingers
+
+Classes detected
+
+Confidence and area stats
+
+Provides start/stop detection buttons.
+
+2. image_capture.py – Dataset Collection
+
+Uses OAK-D camera via DepthAI.
+
+Captures labeled images for each gesture (labels list).
+
+Saves images in organized folders with UUID names.
+
+Runs threaded saving for efficiency.
+
+3. phrase_display.py – GUI for Final Phrase
+
+Tkinter window showing:
+
+Final recognized phrase
+
+Topic and message (for MQTT context)
+
+Countdown timer (MM:SS).
+
+Timer runs in a separate thread with queue communication.
+
+4. full_pipeline.py – Full System with MQTT
+
+Loads four YOLO models:
+
+Activacion.pt (activation gestures, e.g. Atención)
+
+Acciones.pt (actions, e.g. Abrir, Cerrar, LuzOn, LuzOff)
+
+Lugar.pt (places, e.g. Cocina, Sala, Casa)
+
+Tiempo.pt (time, e.g. 1, 2, 5, 10).
+
+Uses buffers to filter noisy predictions.
+
+Flow:
+
+Detect "Atención" → Switch to actions model.
+
+Detect an action → Switch to location or time model.
+
+Detect place/time → Build final phrase.
+
+Send via MQTT.
+
+Supports timeouts to reset on inactivity.
+
+MQTT publishes to Casa and specific topics (e.g. Cocina).
+
+Timer integration with MQTT publishing when countdown ends.
+
+⚡ Usage
+
+Clone repo & install dependencies.
+
+Place trained YOLO models (*.pt) inside models/.
+
+Run modules as needed:
+
+Run YOLO GUI:
+
+python yolo_interface.py
+
+
+Capture dataset images:
+
+python image_capture.py
+
+
+Display final phrase with timer:
+
+python phrase_display.py
+
+
+Run full system with MQTT:
+
+python full_pipeline.py
+
+🔗 Example Workflow
+
+User performs sign → "Atención".
+
+Action model detects → "Abrir".
+
+Place model detects → "Cocina".
+
+Final phrase: "Atención Abrir Cocina".
+
+System publishes MQTT message:
+
+Topic: Cocina
+Message: Abrir
+
+📌 Notes
+
+The YOLO .pt models are not included in this repository. Train your own or request access.
+
+Recommended hardware: OAK-D Lite camera.
+
+MQTT broker defaults to broker.emqx.io:8883 (can be configured).
