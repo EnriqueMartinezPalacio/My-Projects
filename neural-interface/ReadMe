@@ -1,0 +1,18 @@
+# Neural Interface Projects
+
+This folder contains projects exploring **Brain-Computer Interfaces (BCI)** and neural signal processing.
+
+## 📑 Projects
+
+- **Project 1: Neural Interface_1**  
+  Short description (e.g., EEG signal classification).  
+  🔹 Tech stack: Python, MNE, Scikit-learn  
+
+- **Project 2: Neural Interface_2 **  
+  Short description (e.g., Real-time neural data visualization).  
+  🔹 Tech stack: Python, Matplotlib, MQTT  
+
+## ⚙️ How to Run
+Each project includes its own instructions in the corresponding folder.  
+Dependencies can be installed via `requirements.txt`.
+
