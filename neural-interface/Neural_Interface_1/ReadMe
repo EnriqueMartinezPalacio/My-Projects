@@ -34,7 +34,7 @@ Simulates a mass-damper system (ODE-based), generates control inputs, runs time 
 ### 4. InterfaceLLM — LLM + Vector DB interface (prototype)
 **Location:** `llm_interface/` (entry: `InterfaceLLM`)  
 **Description:**  
-Prototype demonstrating integration of an LLM (OpenAI), embeddings, and a Qdrant vector store to build a retrieval-augmented assistant. Includes code to embed queries, retrieve context, and run a prompt chain using `langchain`. **Note:** prototype contains example API keys — **do not commit keys to the repo**. Use environment variables or a secrets manager.  
+Prototype demonstrating integration of an LLM (OpenAI), embeddings, and a Qdrant vector store to build a retrieval-augmented assistant. Includes code to embed queries, retrieve context, and run a prompt chain using `langchain`.  
 **Key capabilities:** OpenAI embeddings + ChatOpenAI, Qdrant retrieval, ChatPrompt pipeline.
 
 ---
