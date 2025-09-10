@@ -45,7 +45,7 @@ Each project has its own folder with a dedicated **README.md** that explains:
 I am an **AI Engineer** passionate about building intelligent systems that connect the digital and physical world.  
 My experience ranges from **computer vision applications** to **neural interfaces** and **sign recognition systems** for automation.  
 
-📫 Feel free to connect with me on [LinkedIn](www.linkedin.com/in/empalacio) or check out more of my work on [GitHub](https://github.com/EnriqueMartinezPalacio).
+📫 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/empalacio) or check out more of my work on [GitHub](https://github.com/EnriqueMartinezPalacio).
 
 ---
 
