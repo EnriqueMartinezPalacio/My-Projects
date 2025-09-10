@@ -11,10 +11,10 @@ from langchain.schema.output_parser import StrOutputParser
 
 class InterfaceLLM:
     def __init__(self):
-        self.openai_key = 'sk-proj-nQKp5FeRXsT8NKsTxE4WT3BlbkFJShIKU5x4aUY5CvBb5p10'
+        self.openai_key = ''
         self.openai_model = 'gpt-3.5-turbo'
-        self.vectorstore_url = 'https://d8a6a839-4f2a-47ff-9601-ef0459828e49.us-east4-0.gcp.cloud.qdrant.io:6333'
-        self.vectorstore_apikey = 'LRDJeoM8s2W5WNjGNN4GXJkjbwyeMyuS69cHRpaHslMc5GLOgh3EEQ'
+        self.vectorstore_url = ''
+        self.vectorstore_apikey = ''
         self.vector_quantity = 20
 
     def send_message(self):
