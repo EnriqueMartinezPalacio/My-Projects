@@ -1,0 +1,66 @@
+# Neural Interface Projects
+
+This directory contains experimental and production-oriented projects for **data-driven neural interfaces, time-series modeling, real-time simulation, and LLM-based tooling**.  
+The aim is to demonstrate end-to-end expertise in data ingestion, preprocessing, model training/inference (XGBoost / PyTorch), signal/physical system simulation, and integration with vector search and LLMs.
+
+---
+
+## Projects overview
+
+### 1. ModelHub — Training & Prediction Hub
+**Location:** `model_hub/` (entry: `ModelHub`)  
+**Description:**  
+A lightweight orchestration layer to train and predict using different backends (e.g., XGBoost, PyTorch). Supports both standard tabular workflows and time-series windowing (sliding windows, horizon). Includes helpers for model checkpointing and dataset splitting.  
+**Key capabilities:** data loading & preprocessing, timeseries processing (static & dynamic windows), model training, model prediction and exporting predictions to Excel.
+
+---
+
+### 2. DataHub — Data loading & preprocessing utilities
+**Location:** `data/` (entry: `DataHub`)  
+**Description:**  
+Utility class for dataset management: loading Excel files, cleaning (drop NaNs / duplicates), label encoding, scaling (StandardScaler), train/test split and (de)normalization helpers. Also contains functions to transform tabular data into timeseries matrices and save them for training pipelines.  
+**Key capabilities:** data scaling persistence, timeseries matrix creation (static & dynamic), denormalization for final reporting.
+
+---
+
+### 3. MassDamper — Physical system simulation & online training
+**Location:** `simulations/` (entry: `MassDamper`)  
+**Description:**  
+Simulates a mass-damper system (ODE-based), generates control inputs, runs time evolution and optionally performs online/realtime training and prediction using an ML model (e.g., XGBoost wrapper). Can export results to Excel for analysis. Useful for control/BCI experimentation and model-in-the-loop research.  
+**Key capabilities:** ODE simulation, realtime model training/prediction, result export, configurable window/horizon for online learning.
+
+---
+
+### 4. InterfaceLLM — LLM + Vector DB interface (prototype)
+**Location:** `llm_interface/` (entry: `InterfaceLLM`)  
+**Description:**  
+Prototype demonstrating integration of an LLM (OpenAI), embeddings, and a Qdrant vector store to build a retrieval-augmented assistant. Includes code to embed queries, retrieve context, and run a prompt chain using `langchain`. **Note:** prototype contains example API keys — **do not commit keys to the repo**. Use environment variables or a secrets manager.  
+**Key capabilities:** OpenAI embeddings + ChatOpenAI, Qdrant retrieval, ChatPrompt pipeline.
+
+---
+
+### 5. XGBoost / PyTorch model wrappers
+**Location:** `model/models/`  
+**Description:**  
+Backend implementations (wrappers) for XGBoost and PyTorch models used by ModelHub. Provide standardized `train`, `pred`, `train_realtime`, `pred_realtime` interfaces, and utilities for checkpoint save/load. Designed to be backend-agnostic so ModelHub can call either backend uniformly.
+
+---
+
+## Technologies & libraries
+
+- Python 3.8+  
+- Data & ML: `pandas`, `numpy`, `scikit-learn`, `joblib`, `xgboost`, `torch` (PyTorch)  
+- Simulation & plotting: `scipy`, `matplotlib`  
+- LLM & vector search: `openai`, `langchain`, `qdrant-client`  
+- I/O: Excel support via `pandas` (`openpyxl` / `xlrd` depending on files)
+
+---
+
+## Quick start
+
+1. Create a virtual environment and install dependencies:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate      # Mac / Linux
+   .venv\Scripts\activate         # Windows (PowerShell/CMD)
+   pip install -r requirements.txt
